@@ -11,7 +11,6 @@ public final class FieldConstants {
     public static final double FIELD_WIDTH_METERS = Units.inchesToMeters(316.64);
 
     // Official AprilTag field layout for REBUILT 2026
-    // Coordinates derived from GE-26000 Series Field Drawings
     public static final Map<Integer, Pose3d> APRIL_TAG_FIELD_LAYOUT = Map.ofEntries(
         // --- RED ALLIANCE SIDE ---
         
